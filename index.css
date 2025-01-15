@@ -2,7 +2,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f2f1f1;
     padding: 0%;
-    margin: 0.2%;
+    margin: 0.1%;
 }
 
 header {
@@ -11,19 +11,25 @@ header {
     background-color: #333;
 }
 
+img {
+    margin-bottom: 1%;
+    height: 150px;
+    width: 200px;
+    border: #333;
+    border-style: solid;
+    border-radius: 20%;
+}
+
 main {
     padding: 20px;
     margin: 2%;
 }
 
-.nav-list{
-    display: flex;
-}
-
 footer {
     background-color: #333;
-    color: #fff;
+    text-decoration: wavy;
     text-align: center;
+    color: #ccc;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
@@ -38,11 +44,6 @@ footer {
     border-radius: 10px;
     box-shadow: #333;
     background-color: azure;
-}
-
-.card img {
-    margin-bottom: 10%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .card ul {
@@ -66,8 +67,8 @@ footer {
 }
 
 .preparations {
-    background-color: blueviolet;
     border: #333;
+    border-style: dashed;
     margin: 1%;
     padding: 1%;
     border-color: #333;
@@ -75,8 +76,7 @@ footer {
 }
 
 .ingredients {
-    background-color: rgb(100, 198, 144);
-    border: #333;
+    border-style: dashed;
     margin: 1%;
     padding: 1%;
     border-color: #333;
