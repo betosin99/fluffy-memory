@@ -1,3 +1,3 @@
 # fluffy-memory
-a test
-Hello Odin
+
+Hello Odin, this is my entry for the recipe project.
