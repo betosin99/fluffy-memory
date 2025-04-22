@@ -1,0 +1,141 @@
+/* * Importing Font Aweseome*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'); */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    background-color: #1f2937;
+}
+
+.nav-list {
+    list-style: none;
+    margin-left: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    box-shadow: #333;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -7rem;
+}
+
+.logo {
+    padding: 2rem;
+}
+
+.logo img {
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 8px;
+    padding: 1rem;
+
+}
+
+.nav-list a {
+    color: cornsilk;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.nav-list a:hover {
+    background-color: aquamarine;
+    border: 1px solid grey;
+    transition: 0.3s ease-in-out;
+}
+
+>.nav-list a:active {
+
+}
+
+.hero-section {
+    display: flex;
+    padding: 1rem;
+    background-color: #1f2937;
+}
+
+.hero-message {
+    padding: 1rem;
+    margin: 1rem;
+    width: 60%;
+    color: bisque;
+    font-size: 20px;
+}
+
+.hero-message h1 {
+    font-weight: 48px;
+}
+
+.hero-image {
+    width: 40%;
+}
+
+.section-message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+}
+
+.section-message h2 {
+    text-align: center;
+    padding: 1rem;
+    color: darkgoldenrod;
+}
+
+.service-card {
+    display: flex;
+    direction: 1;
+    margin: 8rem;
+}
+
+.product-card {
+    padding: 0.5rem;
+    font-size: 10px;
+    width: 30%;
+}
+
+.product-card p {
+    margin-top: 5rem;
+}
+
+.product-card img {
+    border: 3px solid blue;
+    border-radius: 15px;
+    max-width: 30%;
+    max-height: 40%;
+}
+
+.message-quote {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: dimgray; 
+    margin: 0;
+    padding: 5rem;
+    font-size: x-large;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 800;
+}
+
+.call-action {
+    text-align: center;
+    background-color: blue;
+    padding: 3rem;
+    margin: 4rem;
+}
+
+footer {
+    background-color: darkblue;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    color: bisque;
+}
